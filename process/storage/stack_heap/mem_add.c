@@ -8,7 +8,7 @@ extern etext, edata, end;
 
 int bss_var;
 int data_var = 42;
-#define SHW_ADR(ID, I) printf("the %s8s\t is at adr:%8x\n", ID , &I);
+#define SHW_ADR(ID, I) printf("the %8s\t is at adr:%8x\n", ID , &I);
 
 void afunc(void)
 {

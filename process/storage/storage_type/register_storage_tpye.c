@@ -6,9 +6,10 @@
 #include <stdio.h>
 
 int main(){
-    register int i,sum=0;
-    for(i=0;i<10;i++){
-        sum=sum+i;
+    int i,sum=0;
+    printf("%d\n",i);
+    for(i=0; i<1000000000; i++){
+        sum=sum+10000;
         printf("%d\n",sum);
         return 0;
     }
